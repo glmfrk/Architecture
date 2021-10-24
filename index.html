@@ -27,6 +27,10 @@
     <!-- BOOTSTRAP V5 -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 
+    <!-- OWL CAROUSEL CSS FILES -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
+
     <!-- CUSTOM CSS FILE -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/custom.css" />
@@ -34,80 +38,81 @@
   </head>
   <body>
     <!-- HEADER SECTION -->
-    <header id="header">
-      <nav id="navigation" class="navbar navbar-expand-lg navbar-light">
-        <div class="navigation-wrapper">
-          <div class="logo-box">
-            <a class="navbar-brand" href="#">
-              <img
-                class="navbar-logo"
-                src="./assets/images/header-logo.png"
-                alt="header-logo"
-                srcset=""
-              />
-              <span class="logo-text">retech</span>
-            </a>
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-          </button>
 
-          <div
-            class="collapse navbar-collapse menu-box"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav mr-auto menu-wrapper">
-              <li class="nav-item active">
-                <a class="nav-link text-white" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">About </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Projects +</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">News +</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Shop +</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Pages + </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Shop +</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white pr-0" href="#">Contact us</a>
-              </li>
-            </ul>
-          </div>
-          <div class="menu-right">
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-light">
+      <div class="navigation-wrapper">
+        <div class="logo-box">
+          <a class="navbar-brand" href="#">
             <img
-              src="./assets/images/phone-icon.png"
-              alt="phone-icon"
+              class="navbar-logo"
+              src="./assets/images/header-logo.png"
+              alt="header-logo"
               srcset=""
             />
-            <span> 2 (250) 365 8950</span>
-            <button type="button" class="btn btn-warning text-white right-btn">
-              Free Quote
-            </button>
-          </div>
+            <span class="logo-text">retech</span>
+          </a>
         </div>
-      </nav>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
 
-      <!-- BANNER SECTION -->
+        <div
+          class="collapse navbar-collapse menu-box"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mr-auto menu-wrapper">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Projects +</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">News +</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Shop +</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Pages + </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Shop +</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white pr-0" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-right">
+          <img
+            src="./assets/images/phone-icon.png"
+            alt="phone-icon"
+            srcset=""
+          />
+          <span> 2 (250) 365 8950</span>
+          <button type="button" class="btn btn-warning text-white right-btn">
+            Free Quote
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- BANNER SECTION -->
+    <header id="header">
       <section id="banner" class="banner-section">
         <div class="banner-left">
           <div class="banner-left-content">
@@ -116,7 +121,7 @@
               Exploring the Quality Ways through Design
             </h1>
             <p>Because we are working on beautifying</p>
-            <button class="btn-btn">explore more</button>
+            <button class="btn-explore">explore more +</button>
           </div>
         </div>
         <div class="banner-right">
@@ -152,7 +157,7 @@
             <div class="about-retech__right__content">
               <div class="about-retech__right__top__content">
                 <div style="text-align: left">
-                  <p class="sub-para">Working Process</p>
+                  <p class="sub-para">About Retech</p>
                 </div>
                 <h2 class="about-heading">Composure is Expressed by Design</h2>
                 <p>
@@ -182,7 +187,7 @@
                   </div>
                 </div>
               </div>
-              <button class="btn-btn">explore more</button>
+              <button class="btn-btn">explore more +</button>
             </div>
           </div>
         </div>
@@ -352,11 +357,224 @@
           </div>
         </div>
       </section>
+      <section id="slider" class="slider-section">
+        <div class="owl-carousel owl-theme">
+          <div class="item" style="width: 100px height: auto;">
+            <img src="./assets/images/slider-prev.png" alt="" srcset="" />
+          </div>
+          <div class="item" style="width: 250px height: auto">
+            <img src="./assets/images/slider-1.png" alt="" srcset="" />
+          </div>
+          <div class="item" style="width: 100px height: auto">
+            <img src="./assets/images/slider-next.png" alt="" srcset="" />
+          </div>
+        </div>
+      </section>
     </main>
+
+    <section id="price-table" class="price-table">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <p class="sub-para">price table</p>
+          </div>
+          <h2 class="text-center heading">choose affordable plan</h2>
+        </div>
+        <div class="row mt-80">
+          <div class="col col-md-4 col-sm-6">
+            <div class="card p-5">
+              <div class="card-header">
+                <h4>Professional</h4>
+                <div class="price-wrapper">
+                  <p class="price">29.00/</p>
+                  <p class="curency">Per m<sup>2</sup></p>
+                </div>
+              </div>
+              <div class="card-body text-center mb-25">
+                <ul class="mb-25">
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Construction Drawing</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Floor & celling plan</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Selection of Material</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Structure of a project</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Always plan support</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Visualization premise</span>
+                  </li>
+                </ul>
+                <a href="#" class="btn-btn">Get Started +</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card p-5">
+              <div class="card-header">
+                <h4>Standard</h4>
+                <div class="price-wrapper">
+                  <p class="price">39.00/</p>
+                  <p class="curency">Per m<sup>2</sup></p>
+                </div>
+              </div>
+              <div class="card-body text-center mb-25">
+                <ul class="mb-25">
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Construction Drawing</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Floor & celling plan</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Selection of Material</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Structure of a project</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Always plan support</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Visualization premise</span>
+                  </li>
+                </ul>
+                <a href="#" class="btn-btn">Get Started +</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card p-5">
+              <div class="card-header">
+                <h4>Premium</h4>
+                <div class="price-wrapper">
+                  <p class="price">49.00/</p>
+                  <p class="curency">Per m<sup>2</sup></p>
+                </div>
+              </div>
+              <div class="card-body text-center mb-25">
+                <ul class="mb-25">
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Construction Drawing</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Floor & celling plan</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Selection of Material</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Structure of a project</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Always plan support</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Visualization premise</span>
+                  </li>
+                </ul>
+                <a href="#" class="btn-btn">Get Started +</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="client-feedback" class="client-feedback">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="text-left">
+              <p class="sub-para">client feedback</p>
+            </div>
+            <h2 class="heading">Happy People Says About Retech</h2>
+            <p class="lead">
+              Eu suscipit dui potenti vitae inceptos cursus an acinia elementu
+              nunc dictum phasellus neque enim ale vestibulum arcu lorem
+              habitant vitae dolor luctus accumsan porta urna eros amet
+              curabitur eternel duis placerat
+            </p>
+            <a href="#" class="btn-btn">more feedback +</a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-8">
+            <div class="client-mgs-box">
+              <div class="row">
+                <div class="col-6">
+                  <div class="feedback-box">
+                    <img
+                      src="./assets/images/client-img.png"
+                      class="client-img"
+                      alt="client-img"
+                    />
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">lorem ipsum</h5> -->
+                      <p class="card-text">
+                        Lacus senectus dictumst cursus fringilla diam justo do
+                        placerat luctus socis interdum vehicula justo tincidunt
+                        malesuada habitant aenean sit pharetra proin posuere has
+                        orci molestie magna porttitor
+                      </p>
+                      <span class="viewer">Daren Mackwel</span>
+                      <span class="viewer-designation">- CEO, Apple</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="feedback-box">
+                    <img
+                      src="./assets/images/client-img.png"
+                      class="client-img"
+                      alt="client-img"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Lacus senectus dictumst cursus fringilla diam justo do
+                        placerat luctus socis interdum vehicula justo tincidunt
+                        malesuada habitant aenean sit pharetra proin posuere has
+                        orci molestie magna porttitor
+                      </p>
+                      <span class="viewer">Daren Mackwel</span>
+                      <span class="viewer-designation">- CEO, Apple</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- JQUERY & JS FILES FOR BOOTSTRAP V5  -->
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/all.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
+
+    <!-- OWL CAROUSEL JS FILE -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
     <script src="./assets/js/scripts.js"></script>
   </body>
 </html>
